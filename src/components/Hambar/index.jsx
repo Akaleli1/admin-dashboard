@@ -3,7 +3,7 @@ import '../../styles/dashboard/hambar/styles.scss'
 
 function Hambar() {
   return (
-    <div className="hambar">
+    <div className="hambar-container">
 
         <div className="user-detail">
           <section className="ham-logo-section">

@@ -1,9 +1,13 @@
-.hambar{
+.hambar-container{
     width: 380px;
     height: 1024px;
     left: 0px;
     top: 0px;
     background-color: #0F4C5C;
+    flex: 2;
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
 }
 .user-detail{
     display: flex;
