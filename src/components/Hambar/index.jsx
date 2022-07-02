@@ -6,9 +6,15 @@ function Hambar() {
     <div className="hambar">
 
         <div className="user-detail">
-          <section className="ham-logo-section">logo</section>
+          <section className="ham-logo-section">
+            <div className="ham-logo-div">
+              <img className="ham-logo" src="http://localhost:3000/favicon.ico" alt="" />
+            </div>
+          </section>
           <hr className="vl solid" />
-          <section className="ham-user-section">user</section>
+          <section className="ham-user-section">
+            <h4 className="ham-user-section-name">Full Name</h4>
+          </section>
         </div>
         <hr className="hl solid" />
         <div className="ham-menu">
