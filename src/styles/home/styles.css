@@ -1,14 +1,3 @@
-body{
-    height: 100%
-}
-.container{
-    height: 900px;
-    background: #EEEEEE;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .login-container{
     background-color: #0F4C5C;
     width: 400px;
