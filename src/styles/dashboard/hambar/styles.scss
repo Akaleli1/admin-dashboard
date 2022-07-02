@@ -1,0 +1,66 @@
+.hambar{
+    width: 380px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background-color: #0F4C5C;
+}
+.user-detail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.ham-logo-section{
+    margin: 10px 10px 10px 10px;
+    height: 100%;
+    flex:30%;
+    background-color: blue;
+}
+.ham-user-section{
+    margin: 10px 10px 10px 10px;
+    height: 100%;
+    flex:30%;
+    background-color: red;
+}
+
+.ham-menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+}
+.ham-menu-ulist{
+    list-style-type: none;
+    padding: 0px;
+    margin: 20px 40px 20px 25px;
+}
+
+.ham-menu-list-element {
+    margin-bottom: 18px;
+    border-style: solid;
+    border-radius: 22px;
+    font-weight:400;
+    font-size: 18px;
+    border-color: whitesmoke;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    height: 25px;
+    transition: font-weight .1s;
+    &:hover,&::after,&:active {
+        font-weight: bold;
+        background-color: #FFB703;
+        color: white;
+        border-color: #FFB703;
+        text-decoration:none;
+    }
+}
+.ham-menu-list-element.active{
+    font-weight: bold;
+    background-color: #FFB703;
+    color: white;
+    border-color: #FFB703;
+}

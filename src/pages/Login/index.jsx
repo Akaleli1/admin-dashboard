@@ -1,9 +1,10 @@
 import React from 'react'
-import '../../styles/home/styles.css';
+import '../../styles/login/styles.css';
 
 
 function Login() {
   return (
+    <div className="container">
     <div className="login-container">
         <form className="login-form">
             <input className="login-form-input" type="text" name="username" placeholder="Username" />
@@ -11,6 +12,8 @@ function Login() {
           <input className="login-form-btn" type="submit" value="Login" />
         </form>
     </div>
+    </div>
+
   )
 }
 
