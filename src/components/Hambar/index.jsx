@@ -10,12 +10,10 @@ function Hambar() {
               <img className="ham-logo" src="http://localhost:3000/favicon.ico" alt="" />
             </div>
           </section>
-          <hr className="vl solid" />
           <section className="ham-user-section">
             <h4 className="ham-user-section-name">Full Name</h4>
           </section>
         </div>
-        <hr className="hl solid" />
         <div className="ham-menu">
           <ul className="ham-menu-ulist">
             <li className="ham-menu-list-element">Dashboard</li>
