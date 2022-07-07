@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../styles/dashboard/hambar/styles.scss'
 
 function Hambar() {
   return (
@@ -19,8 +18,8 @@ function Hambar() {
         <hr className="hl solid" />
         <div className="ham-menu">
           <ul className="ham-menu-ulist">
-            <li className="ham-menu-list-element active">Dashboard</li>
-            <li className="ham-menu-list-element">Orders</li>
+            <li className="ham-menu-list-element">Dashboard</li>
+            <li className="ham-menu-list-element active">Orders</li>
             <li className="ham-menu-list-element">Products</li>
             <li className="ham-menu-list-element">Statistics</li>
             <li className="ham-menu-list-element">Requests</li>

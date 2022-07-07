@@ -1,13 +1,13 @@
 .container{
-    height: 900px;
+    height: 100vh;
     background: #EEEEEE;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(to bottom, transparent, #0F4C5C, transparent);
   }
 
   .login-container{
-    background-color: #0F4C5C;
     width: 400px;
     height: 250px;
 }
@@ -32,7 +32,7 @@
 }
 
 .login-form-btn{
-    background-color: #FFB703;
+    background-image: linear-gradient(to top, #FFB703, transparent);
     width: 255px;
     height: 25px;
     border-radius: 7px;

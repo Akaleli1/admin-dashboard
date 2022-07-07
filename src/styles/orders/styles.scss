@@ -1,0 +1,29 @@
+.order-table-container{
+    margin: 10vh 10vh 10vh 10vh;
+}
+
+table { 
+    border-collapse:collapse ;
+}
+
+.table-container{
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+    
+}
+
+td{
+    padding: 25px;
+}
+.table-header-section{
+    font-size: 18px;
+}
+
+.odd{
+    background-color: white;
+}
+
+.even{
+    background-color: rgba(221, 221, 221, 0.624);
+}

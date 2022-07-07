@@ -1,4 +1,4 @@
-import '../../styles/home/navbar/styles.scss';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
   faMagnifyingGlass,

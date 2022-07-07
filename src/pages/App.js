@@ -1,11 +1,19 @@
-import Login from './Login';
-import Dashboard from './Dashboard';
+
+import Navbar from '../components/Navbar';
+import Hambar from '../components/Hambar';
+import Orders from './Orders'
 
 function App() {
   return (
-    <div className="app-container">
-      {/* <Login/> */}
-      <Dashboard/>
+    <div className="root-container">
+      <Hambar/> 
+      <div className="app-container">
+      <Navbar/>
+        <div className="body-container">
+
+        <Orders/>
+        </div>
+      </div>
     </div>
   );
 }
