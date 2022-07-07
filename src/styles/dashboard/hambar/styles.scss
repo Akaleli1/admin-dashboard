@@ -71,16 +71,16 @@
 }
 
 .ham-menu-list-element {
-    margin-bottom: 18px;
+    margin-bottom: 20px;
     border-bottom: solid;
     border-radius: 16px;
     font-weight:400;
     font-size: 15px;
     border-color: whitesmoke;
     background-color: white;
-    padding-top: 5px;
+    padding-top: 4px;
     padding-left: 20px;
-    height: 25px;
+    height: 35px;
     transition: font-weight .1s;
     &:hover,&::after,&:active {
         background-image: linear-gradient(45deg, #f53e3e, #7a1cc7);
@@ -95,3 +95,5 @@
     color: white;
     background-image: linear-gradient(45deg, #f53e3e, #7a1cc7);
 }
+
+

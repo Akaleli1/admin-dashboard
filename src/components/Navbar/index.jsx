@@ -1,7 +1,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
-  faMagnifyingGlass,
   faArrowRightFromBracket,
   faUser
 } from '@fortawesome/free-solid-svg-icons'

@@ -42,7 +42,9 @@ table{
     background-color: white;
     border-radius: 20px;
     padding: 20px;
+    position: relative;
     box-shadow: 0 6px 10px -4px rgb(0 0 0 / 15%);
+    text-align: end;
 }
 
 
@@ -53,4 +55,21 @@ table{
 
 .even{
     background-color: rgba(221, 221, 221, 0.624);
+}
+
+
+.date-picker{
+    font-size: 14px;
+    padding: 4px 11px 4px;
+    position: relative;
+    display: inline-flex;
+    &:hover{
+        transition: #57135a 0.3s, box-shadow 0.3s;
+    }
+    input{
+        margin-right: 15px;
+    }  
+
+    margin-bottom: 30px;
+    
 }

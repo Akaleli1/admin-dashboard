@@ -1,9 +1,22 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from '@fortawesome/free-solid-svg-icons'
+
+
+
 function Order() {
+ 
+
   return (
     <div className="order-table-container">
     <div className="table-container">
+
+  
+    <div className="date-picker">
+      <input placeholder="From" type="date"/>
+      <input placeholder="To" type="date"/>
+    </div>
+
+    
 
     <table className="order-table">
       <thead className="table-header-section">
@@ -18,7 +31,6 @@ function Order() {
         <th><strong>Total</strong></th>
         </tr>
       </thead>
-      
       
       
       <tbody>
