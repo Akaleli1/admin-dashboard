@@ -10,6 +10,7 @@
     }
 }
 .user-detail{
+    margin-top: 3vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -66,20 +67,19 @@
 .ham-menu-ulist{
     list-style-type: none;
     padding: 0px;
-    margin: 20px 40px 20px 25px;
+    margin: 60px 40px 20px 25px;
 }
 
 .ham-menu-list-element {
     margin-bottom: 18px;
-    border-style: solid;
-    border-radius: 22px;
+    border-bottom: solid;
+    border-radius: 16px;
     font-weight:400;
-    font-size: 14px;
+    font-size: 15px;
     border-color: whitesmoke;
     background-color: white;
     padding-top: 5px;
     padding-left: 20px;
-    padding-bottom: 2px;
     height: 25px;
     transition: font-weight .1s;
     &:hover,&::after,&:active {
