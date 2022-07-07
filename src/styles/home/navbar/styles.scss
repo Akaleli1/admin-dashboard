@@ -1,5 +1,5 @@
 .navbar-container{
-    background-color: #0F4C5C;
+    background-color: #ffffff;
     flex: 11;
     display: flex;
 }
@@ -35,11 +35,11 @@
         border: 0;
         
     }
-    color: #FFB703;
+    color: #7a1cc7;
     background-color: white ;
     transition: all .3s;
     &:hover{
-        background-color: #FFB703;
+        background-color: #7a1cc7;
         color:white;
     }
 }
@@ -58,19 +58,19 @@
     position: absolute;
     top: 0px;
     right: 20px;
-    color: white;
+    color: rgb(100, 100, 100);
     transition: color .3s;
     &:hover{
-        color: #FFB703;
+        color: #7a1cc7;
     }
 }
 .auth-section-icon-arrow{
     position: absolute;
     top: 0px;
     right: 50px;
-    color: white;
+    color: rgb(100, 100, 100);
     transition: color .3s;
     &:hover{
-        color: #FFB703;
+        color: #7a1cc7;
     }
 }

@@ -1,24 +1,29 @@
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 function Order() {
   return (
     <div className="order-table-container">
     <div className="table-container">
 
-    <h3>Orders</h3>
-    <table>
+    <table className="order-table">
       <thead className="table-header-section">
-        <th>Order ID</th>
-        <th>Purchase Date</th>
-        <th>Item Name</th>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Subtotal</th>
-        <th>Total</th>
+        <tr>
+        <th>View</th>
+        <th> <strong> Order ID </strong> </th>
+        <th><strong>Purchase Date</strong></th>
+        <th><strong>Item Name</strong></th>
+        <th><strong>First Name</strong></th>
+        <th><strong>Last Name</strong></th>
+        <th><strong>Subtotal</strong></th>
+        <th><strong>Total</strong></th>
+        </tr>
       </thead>
-
-
+      
+      
+      
       <tbody>
         <tr className="table-row odd">
+          <td> <FontAwesomeIcon icon={faEye} /> </td>
           <td>123253</td>
           <td>15 Jun 2022</td>
           <td>Kanken Backpack Red</td>
@@ -28,6 +33,7 @@ function Order() {
           <td>$108.32</td>
         </tr>
         <tr className="table-row even">
+          <td> <FontAwesomeIcon icon={faEye} /> </td>
           <td>123253</td>
           <td>15 Jun 2022</td>
           <td>Kanken Backpack Red</td>
@@ -37,6 +43,7 @@ function Order() {
           <td>$108.32</td>
         </tr>
         <tr className="table-row odd">
+          <td> <FontAwesomeIcon icon={faEye} /> </td>
           <td>123253</td>
           <td>15 Jun 2022</td>
           <td>Kanken Backpack Red</td>
@@ -46,6 +53,7 @@ function Order() {
           <td>$108.32</td>
         </tr>
         <tr className="table-row even">
+          <td> <FontAwesomeIcon icon={faEye} /> </td>
           <td>123253</td>
           <td>15 Jun 2022</td>
           <td>Kanken Backpack Red</td>
@@ -55,6 +63,7 @@ function Order() {
           <td>$108.32</td>
         </tr>
         <tr className="table-row odd">
+          <td> <FontAwesomeIcon icon={faEye} /> </td>
           <td>123253</td>
           <td>15 Jun 2022</td>
           <td>Kanken Backpack Red</td>
@@ -64,6 +73,7 @@ function Order() {
           <td>$108.32</td>
         </tr>
         <tr className="table-row even">
+          <td> <FontAwesomeIcon icon={faEye} /> </td>
           <td>123253</td>
           <td>15 Jun 2022</td>
           <td>Kanken Backpack Red</td>
@@ -73,6 +83,7 @@ function Order() {
           <td>$108.32</td>
         </tr>
         <tr className="table-row odd">
+          <td> <FontAwesomeIcon icon={faEye} /> </td>
           <td>123253</td>
           <td>15 Jun 2022</td>
           <td>Kanken Backpack Red</td>
