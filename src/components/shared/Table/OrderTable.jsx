@@ -51,6 +51,22 @@ const orders = [
 
 function Order() {
 
+  function renderTableItems(orders){
+    orders.map((order,index) =>{
+      return(
+        <tr key={index} className="table-row odd">
+          <td> <FontAwesomeIcon icon={faEye} /> </td>
+          <td>{order.id}</td>
+          <td>{order.date}</td>
+          <td>{order.item_title}</td>
+          <td>{order.first_name}</td>
+          <td>{order.last_name}</td>
+          <td>${order.subtotal}</td>
+          <td>${order.total}</td>
+        </tr>
+      )
+    })
+  }
  
 
   return (
@@ -80,9 +96,20 @@ function Order() {
       </thead>
       
       <tbody>
-
-
-        
+      {orders.map((order,index) =>{
+        return(
+          <tr key={index} className="table-row odd">
+            <td> <FontAwesomeIcon icon={faEye} /> </td>
+            <td>{order.id}</td>
+            <td>{order.date}</td>
+            <td>{order.item_title}</td>
+            <td>{order.first_name}</td>
+            <td>{order.last_name}</td>
+            <td>${order.subtotal}</td>
+            <td>${order.total}</td>
+          </tr>
+        )
+      })}
       </tbody>
       
       <tfoot></tfoot>
