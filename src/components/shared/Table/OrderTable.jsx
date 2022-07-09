@@ -79,78 +79,10 @@ function Order() {
         </tr>
       </thead>
       
-      
       <tbody>
-        <tr className="table-row odd">
-          <td> <FontAwesomeIcon icon={faEye} /> </td>
-          <td>123253</td>
-          <td>15 Jun 2022</td>
-          <td>Kanken Backpack Red</td>
-          <td>Alazisko</td>
-          <td>Kaleliogluisko</td>
-          <td>$199.3</td>
-          <td>$108.32</td>
-        </tr>
-        <tr className="table-row even">
-          <td> <FontAwesomeIcon icon={faEye} /> </td>
-          <td>123253</td>
-          <td>15 Jun 2022</td>
-          <td>Kanken Backpack Red</td>
-          <td>Alazisko</td>
-          <td>Kaleliogluisko</td>
-          <td>$199.3</td>
-          <td>$108.32</td>
-        </tr>
-        <tr className="table-row odd">
-          <td> <FontAwesomeIcon icon={faEye} /> </td>
-          <td>123253</td>
-          <td>15 Jun 2022</td>
-          <td>Kanken Backpack Red</td>
-          <td>Alazisko</td>
-          <td>Kaleliogluisko</td>
-          <td>$199.3</td>
-          <td>$108.32</td>
-        </tr>
-        <tr className="table-row even">
-          <td> <FontAwesomeIcon icon={faEye} /> </td>
-          <td>123253</td>
-          <td>15 Jun 2022</td>
-          <td>Kanken Backpack Red</td>
-          <td>Alazisko</td>
-          <td>Kaleliogluisko</td>
-          <td>$199.3</td>
-          <td>$108.32</td>
-        </tr>
-        <tr className="table-row odd">
-          <td> <FontAwesomeIcon icon={faEye} /> </td>
-          <td>123253</td>
-          <td>15 Jun 2022</td>
-          <td>Kanken Backpack Red</td>
-          <td>Alazisko</td>
-          <td>Kaleliogluisko</td>
-          <td>$199.3</td>
-          <td>$108.32</td>
-        </tr>
-        <tr className="table-row even">
-          <td> <FontAwesomeIcon icon={faEye} /> </td>
-          <td>123253</td>
-          <td>15 Jun 2022</td>
-          <td>Kanken Backpack Red</td>
-          <td>Alazisko</td>
-          <td>Kaleliogluisko</td>
-          <td>$199.3</td>
-          <td>$108.32</td>
-        </tr>
-        <tr className="table-row odd">
-          <td> <FontAwesomeIcon icon={faEye} /> </td>
-          <td>123253</td>
-          <td>15 Jun 2022</td>
-          <td>Kanken Backpack Red</td>
-          <td>Alazisko</td>
-          <td>Kaleliogluisko</td>
-          <td>$199.3</td>
-          <td>$108.32</td>
-        </tr>
+
+
+        
       </tbody>
       
       <tfoot></tfoot>
