@@ -98,7 +98,9 @@ function Order() {
       <tbody>
       {orders.map((order,index) =>{
         return(
+       
           <tr key={index} className="table-row odd">
+          
             <td> <FontAwesomeIcon icon={faEye} /> </td>
             <td>{order.id}</td>
             <td>{order.date}</td>
@@ -108,6 +110,8 @@ function Order() {
             <td>${order.subtotal}</td>
             <td>${order.total}</td>
           </tr>
+         
+
         )
       })}
       </tbody>
